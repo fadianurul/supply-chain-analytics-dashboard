@@ -10,8 +10,7 @@ Proyek ini melakukan analisis komprehensif terhadap **15.000 data pengiriman log
 Hasil analisis disusun ke dalam sebuah **Interactive Executive Dashboard di Microsoft Excel** yang dilengkapi dengan *Dynamic Slicers*, *Pivot Tables*, *Pivot Charts*, dan *Business Recommendations*.
  Dashboard Preview
 
-> *Tambahkan gambar screenshot dashboard Anda di sini dengan mengunggah gambar ke GitHub dan mengganti path di bawah ini:*
-> `![Logistics Dashboard](dashboard_screenshot.png)`
+`![Logistics Dashboard](dashboard_screenshot.png)`
 
 Key Metrics & Highlights (KPIs)
 * **Total Transaksi Pengiriman:** 15,000 Orders
