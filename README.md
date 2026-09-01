@@ -10,7 +10,7 @@ Proyek ini melakukan analisis komprehensif terhadap **15.000 data pengiriman log
 Hasil analisis disusun ke dalam sebuah **Interactive Executive Dashboard di Microsoft Excel** yang dilengkapi dengan *Dynamic Slicers*, *Pivot Tables*, *Pivot Charts*, dan *Business Recommendations*.
  Dashboard Preview
 
-`![Logistics Dashboard](dashboard_screenshot.png)`
+![Dashboard Preview](dashboard_screenshot.png)
 
 Key Metrics & Highlights (KPIs)
 * **Total Transaksi Pengiriman:** 15,000 Orders
@@ -20,7 +20,7 @@ Key Metrics & Highlights (KPIs)
 
 Key Findings (Temuan Utama)
 
-z **Bottleneck Severitas Tinggi pada Layanan Premium:**
+1. **Bottleneck Severitas Tinggi pada Layanan Premium:**
    * Layanan pengiriman cepat seperti **Same Day** dan **Express** justru mencatatkan performa OTD terburuk, masing-masing hanya **3.6%** dan **13.9%**.
    * Sebaliknya, layanan **Economy** mencatatkan OTD Rate tertinggi sebesar **51.3%**.
 
@@ -40,7 +40,7 @@ Actionable Business Recommendations
    * Mengintegrasikan notifikasi otomatis secara *real-time* kepada pelanggan jika estimasi pengiriman mengalami kendala/keterlambatan di atas 2 jam untuk menekan potensi kepuasan pelanggan yang menurun.
 
 
-🛠️ Data Architecture & Excel Features Used
+Data Architecture & Excel Features Used
 * **Data Cleaning & Preprocessing:** Formulas (`IF`, `AVERAGE`, `COUNTIF`, String Concatenation `&`).
 * **Advanced Pivot Tables & Calculated Fields:** Pembuatan indikator OTD Rate (%) kustom menggunakan *Calculated Field* dan agregasi data bertingkat.
 * **Interactive Slicers:** Menghubungkan *Slicers* (*Customer Region*, *Product Category*, *Payment Method*) ke seluruh Pivot Tables menggunakan *Report Connections*.
